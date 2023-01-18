@@ -15,7 +15,7 @@ function App() {
   const [selectedPage, setSelectedPage] = useState("home");
   const [isTopOfPage, setIsTopOfPage] = useState(true);
   const isDesktop = useMediaQuery("(min-width: 1060px)");
-
+///
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY === 0) {
